@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+p{
+    overflow: auto;
+    clear: both;
+}
+
+h1{
+    text-align: center;
+}
+.paddingP{
+    padding: 10px;
+}
+.row {
+    width: 100%;
+  }
+.boxMenu{
+    border: 1px solid rgb(0, 0, 0);
+    background-color:  rgb(201, 188, 196);
+    }
+.boxTitleC,.boxTitleB, .boxTitleS{
+    margin: -1px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 30%;
+    position: relative;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+}
+.boxTitleC{
+    background-color:  rgb(207, 113, 195);
+}
+.boxTitleB{
+    background-color:  rgb(216, 90, 81);
+    color: white;
+}
+.boxTitleS{
+    background-color:  rgb(230, 159, 79);
+}
+/* Reponsive code*/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float:left;
+        padding: 10px;
+        margin-top: 10px;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+      .col-md-1,.col-md-6{
+        float:left;
+        padding: 10px;
+        margin-top: 10px;
+      }
+    .col-md-1 {
+        width: 100%;
+        margin-top: 0px;
+      }
+    .col-md-6 {
+        width: 50%;
+      }
+  }
+  @media (max-width: 767px) {
+    .col-sm-1 {
+        width: 100%;
+        float:left;
+        padding: 10px;
+        margin-top: 10px;
+      }
+  } 
